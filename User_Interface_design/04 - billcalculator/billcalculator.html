@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>billcalculator</title>
+        <link rel="stylesheet" href="billcalc.css">
+        <script>
+            function calculateTotalPrice(){
+                let a = document.getElementById('price').value;
+                let b = document.getElementById('qty').value;
+                document.getElementById('totalPrice').innerHTML=a*b;
+            return false;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Bill calculator</h1>
+        <form onsubmit="return calculateTotalPrice() ; return false;" >
+        <table>
+            <tr>
+                <td><label for="productName">Product Name</label></td>
+                <td><input type="text" id="productName" placeholder="Product Name" required></td>
+            </tr>
+            <tr>
+                <td><label for="price">Product Pice in Rs</label></td>
+                <td><input type="number" id="price" placeholder="Produc Price" required></td>
+            </tr>
+            <tr>
+                <td><label for="Quantity">Quantity</label></td>
+                <td><input type="number" id="qty" placeholder="Quantity" required></td>
+            </tr>
+            <tr>
+                <td><label for="totalPrice">Total Price in Rs.</label></td>
+                <td><output id="totalPrice" name="totalprice" for="price qty" required></output></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" id="submit"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>

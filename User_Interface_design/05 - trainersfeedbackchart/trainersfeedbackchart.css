@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff00ff;
+}
+table{
+    text-align: center;
+    margin-left: 35%;
+    background-color: #f0f0f0;
+}
+td{
+    text-align: center;
+}
+.header{
+    background-color: #800000;
+    font-weight: bold;
+    color: white;
+    
+}
+.tr1{
+    background-color: #ff0080;
+    font-weight: bold;   
+}
+.tr2{
+    background-color: turquoise;
+    font-weight: bold;
+}
+.ex1{
+    background-color: #00ff00;
+}
+.gd1{
+    background-color: #ffff00;
+}
+.avg1{
+    background-color: #d3d3d3;
+    color: #ffffff;
+}
+.ba1{
+    background-color: #ff0000;
+    color: #ffffff;
+}
+.cap{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1rem;
+}
